@@ -1,0 +1,1399 @@
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:36:42] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:36:42] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 666
+128.119.243.147 - - [21/Apr/2019 12:36:42] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:36:42] "GET /buy/666 HTTP/1.1" 200 -
+Invalidating cache data for item number- 768
+128.119.243.147 - - [21/Apr/2019 12:36:49] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+Invalidating cache data for item number- 846
+128.119.243.147 - - [21/Apr/2019 12:36:49] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+^CPython 3.5.2 (default, Nov 12 2018, 13:43:14) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> exit()
+elnux3 src) > clear
+
+elnux3 src) > python3 front_end.py 
+ * Serving Flask app "front_end_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://128.119.243.168:12346/ (Press CTRL+C to quit)
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 321
+128.119.243.147 - - [21/Apr/2019 12:38:36] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:36] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 321
+128.119.243.147 - - [21/Apr/2019 12:38:36] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:36] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:37] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 321
+128.119.243.147 - - [21/Apr/2019 12:38:37] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:37] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:37] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 499
+128.119.243.147 - - [21/Apr/2019 12:38:37] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:38] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 321
+128.119.243.147 - - [21/Apr/2019 12:38:38] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:38] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:38] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 684
+128.119.243.147 - - [21/Apr/2019 12:38:39] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:39] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 666
+128.119.243.147 - - [21/Apr/2019 12:38:39] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:39] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:39] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 546
+128.119.243.147 - - [21/Apr/2019 12:38:40] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:40] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order1
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:40] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:40] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:41] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:41] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:41] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:41] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:42] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:42] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:42] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:43] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:43] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:43] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:43] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:43] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:44] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:44] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:44] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:44] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:44] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:45] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:45] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:45] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:45] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:45] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /buy/684 HTTP/1.1" 200 -
+Invalidating cache data for item number- 666
+128.119.243.147 - - [21/Apr/2019 12:38:46] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Invalidating cache data for item number- 546
+128.119.243.147 - - [21/Apr/2019 12:38:46] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:46] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:46] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:46] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:46] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:46] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:47] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:47] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:47] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:47] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:47] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:48] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:48] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:49] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:49] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:49] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:49] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:50] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:50] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:50] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:50] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:51] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:51] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:51] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:52] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:52] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:52] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:53] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:53] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:53] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:53] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:53] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:54] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:54] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:54] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:54] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:55] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:55] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:55] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:55] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.147 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+Invalidating cache data for item number- 768
+128.119.243.147 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+Invalidating cache data for item number- 499
+128.119.243.147 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:56] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:56] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:57] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 846
+128.119.243.164 - - [21/Apr/2019 12:38:57] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:57] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:57] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:58] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 684
+128.119.243.164 - - [21/Apr/2019 12:38:58] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /buy/684 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:58] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:58] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+128.119.243.164 - - [21/Apr/2019 12:38:59] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 499
+128.119.243.164 - - [21/Apr/2019 12:38:59] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 546
+128.119.243.164 - - [21/Apr/2019 12:38:59] "GET /cache/invalidate/546 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:38:59] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:38:59] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+128.119.243.164 - - [21/Apr/2019 12:39:00] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Data not found in cache. Forwarding request to catalog server- catalog1.
+Caching Data.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 321
+128.119.243.164 - - [21/Apr/2019 12:39:00] "GET /cache/invalidate/321 HTTP/1.1" 200 -
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 684.
+Data found in cache.
+Forwarding lookup query results to the client.
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /lookup/684 HTTP/1.1" 200 -
+Client wants to buy book numbered 684
+Sending buy request to the order server- order2
+128.119.243.175 - - [21/Apr/2019 12:39:00] "GET /buy/684 HTTP/1.1" 200 -
+Invalidating cache data for item number- 684
+128.119.243.147 - - [21/Apr/2019 12:39:06] "GET /cache/invalidate/684 HTTP/1.1" 200 -
+Invalidating cache data for item number- 846
+128.119.243.147 - - [21/Apr/2019 12:39:06] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+

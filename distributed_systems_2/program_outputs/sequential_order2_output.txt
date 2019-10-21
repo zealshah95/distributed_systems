@@ -1,0 +1,651 @@
+128.119.243.168 - - [21/Apr/2019 12:36:39] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:36:39] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:36:39] "GET /logstransactions_replicas/[(666,%20'Order%20Completed',%20'2019-04-21%2012:36:39.456843',%20'5')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:36:39] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:36:39] "GET /buy/684 HTTP/1.1" 200 -
+^CPython 3.5.2 (default, Nov 12 2018, 13:43:14) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> exit()
+elnux2 src) > clear
+
+elnux2 src) > python3 order2.py 
+ * Serving Flask app "order2_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://128.119.243.164:12351/ (Press CTRL+C to quit)
+128.119.243.147 - - [21/Apr/2019 12:38:36] "GET /logstransactions_replicas/[(321,%20'Order%20Completed',%20'2019-04-21%2012:38:36.280935',%20'11')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:36] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:36] "GET /buy/546 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:36] "GET /logstransactions_replicas/[(321,%20'Order%20Completed',%20'2019-04-21%2012:38:36.851331',%20'10')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:37] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog2
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:37] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:37] "GET /logstransactions_replicas/[(321,%20'Order%20Completed',%20'2019-04-21%2012:38:37.425605',%20'9')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:37] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:37] "GET /buy/684 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:38] "GET /logstransactions_replicas/[(499,%20'Order%20Completed',%20'2019-04-21%2012:38:37.986410',%20'6')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:38] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog2
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:38] "GET /buy/666 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:38] "GET /logstransactions_replicas/[(321,%20'Order%20Completed',%20'2019-04-21%2012:38:38.556264',%20'8')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:38] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:38] "GET /buy/846 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:39] "GET /logstransactions_replicas/[(684,%20'Order%20Completed',%20'2019-04-21%2012:38:39.101847',%20'6')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:39] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:39] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:39] "GET /logstransactions_replicas/[(666,%20'Order%20Completed',%20'2019-04-21%2012:38:39.631673',%20'1')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:39] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:39] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:40] "GET /logstransactions_replicas/[(546,%20'Order%20Completed',%20'2019-04-21%2012:38:40.161100',%20'2')] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:40] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:40] "GET /buy/666 HTTP/1.1" 200 -
+128.119.243.147 - - [21/Apr/2019 12:38:40] "GET /logstransactions_replicas/[(666,%20'Order%20Failed',%20'2019-04-21%2012:38:40.663360',%200)] HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:40] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:40] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:41] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:41] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:41] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:41] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:41] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:41] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:42] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:42] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:42] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:42] "GET /buy/666 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:42] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:42] "GET /buy/846 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:43] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:43] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:43] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:43] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:43] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:43] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:44] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:44] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:44] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:44] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:44] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:44] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:45] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:45] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:45] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:45] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:45] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:45] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:46] "GET /buy/684 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:46] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:46] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:46] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:46] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:46] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /buy/666 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /buy/684 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /buy/546 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:47] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:48] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:48] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:48] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:48] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:48] "GET /buy/684 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:48] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:49] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:49] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:49] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:49] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:49] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:49] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:50] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:50] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:50] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:50] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:50] "GET /buy/846 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:50] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /buy/684 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:51] "GET /buy/684 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:52] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:52] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:52] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:52] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:52] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:52] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:53] "GET /buy/666 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:53] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:53] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:53] "GET /buy/546 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:53] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:53] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:54] "GET /buy/666 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:54] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:54] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:54] "GET /buy/846 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:54] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:54] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:55] "GET /buy/546 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:55] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:55] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:55] "GET /buy/768 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:55] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:55] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:56] "GET /buy/846 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:56] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:56] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:56] "GET /buy/846 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:56] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:38:56] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /buy/499 HTTP/1.1" 200 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+846 is in stock. Continuing with the transaction.
+Invalidating Cache for book 846.
+Cache data invalidated.
+Sold book 846
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /buy/846 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:57] "GET /buy/846 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:58] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:58] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+684 is in stock. Continuing with the transaction.
+Invalidating Cache for book 684.
+Cache data invalidated.
+Sold book 684
+128.119.243.168 - - [21/Apr/2019 12:38:58] "GET /buy/684 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:58] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:38:58] "GET /buy/684 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:58] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:59] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+128.119.243.168 - - [21/Apr/2019 12:38:59] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 499.
+Sending availability verification query to the catalog server- catalog1
+499 is in stock. Continuing with the transaction.
+Invalidating Cache for book 499.
+Cache data invalidated.
+Sold book 499
+128.119.243.168 - - [21/Apr/2019 12:38:59] "GET /buy/499 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:38:59] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server- catalog1
+546 is in stock. Continuing with the transaction.
+Invalidating Cache for book 546.
+Cache data invalidated.
+Sold book 546
+128.119.243.168 - - [21/Apr/2019 12:38:59] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:38:59] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:39:00] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+128.119.243.168 - - [21/Apr/2019 12:39:00] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server- catalog1
+321 is in stock. Continuing with the transaction.
+Invalidating Cache for book 321.
+Cache data invalidated.
+Sold book 321
+128.119.243.168 - - [21/Apr/2019 12:39:00] "GET /buy/321 HTTP/1.1" 200 -
+128.119.243.168 - - [21/Apr/2019 12:39:00] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 846.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:39:00] "GET /buy/846 HTTP/1.1" 200 -
+Received buy request for book 684.
+Sending availability verification query to the catalog server- catalog1
+128.119.243.168 - - [21/Apr/2019 12:39:00] "GET /buy/684 HTTP/1.1" 200 -
+

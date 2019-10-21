@@ -1,0 +1,34 @@
+
+elnux3 src) > python3 test_frontend.py 
+Starting tests...
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+-------------------------------------
+.Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+-------------------------------------
+.Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+-------------------------------------
+.
+----------------------------------------------------------------------
+Ran 3 tests in 0.124s
+
+OK
+elnux3 src) > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

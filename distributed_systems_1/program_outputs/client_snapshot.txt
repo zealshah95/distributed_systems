@@ -1,0 +1,501 @@
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 10}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 10}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 9}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 9}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 7}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 8}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 7}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 8}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 6}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 6}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 5}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 5}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 4}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 7}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 6}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 5}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 4}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 4}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 6}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 3}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 5}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 2}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 1}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 3}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 2}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 3}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 2}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 4}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 1}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 3}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 14}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 1}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 13}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 12}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 11}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 10}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 2}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 1}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 0}
+Item not in stock. Please try again later.
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 0}
+Item not in stock. Please try again later.
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 546.
+The details for item number 546 are as follows:
+{'cost': 8, 'item_number': 546, 'stock': 9}
+546 book is available in stock
+I want to buy item number 546.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 11}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 11}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 321.
+The details for item number 321 are as follows:
+{'cost': 5, 'item_number': 321, 'stock': 7}
+321 book is available in stock
+I want to buy item number 321.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic graduate_school.
+Search output is:
+{'items': {'Cooking for the Impatient Graduate Student': 546, 'Xen and the Art of Surviving Graduate School': 768}}
+I would like to look up the details regarding item number 768.
+The details for item number 768 are as follows:
+{'cost': 15, 'item_number': 768, 'stock': 10}
+768 book is available in stock
+I want to buy item number 768.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python client.py
+I am looking for books on topic distributed_systems.
+Search output is:
+{'items': {'How to get a good grade in 677 in 20 minutes a day': 666, 'RPCs for Dummies': 321}}
+I would like to look up the details regarding item number 666.
+The details for item number 666 are as follows:
+{'cost': 10, 'item_number': 666, 'stock': 10}
+666 book is available in stock
+I want to buy item number 666.
+"Transaction successful."
+
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$

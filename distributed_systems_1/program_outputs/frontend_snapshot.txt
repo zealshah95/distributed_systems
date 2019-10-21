@@ -1,0 +1,508 @@
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python front_end.py
+ * Serving Flask app "front_end_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:12346/ (Press CTRL+C to quit)
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:07] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:07] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:08] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /lookup/321 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /lookup/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 546.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /lookup/546 HTTP/1.1" 200 -
+Client wants to buy book numbered 546
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /buy/546 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 321.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /lookup/321 HTTP/1.1" 200 -
+Client wants to buy book numbered 321
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /buy/321 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Sending item-based query to the catalog server.
+Forwarding query results to the client.
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server.
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /buy/666 HTTP/1.1" 200 -
+

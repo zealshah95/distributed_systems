@@ -1,0 +1,311 @@
+94
+Oops! We ran out of 846's stock. Please try again after sometime.
+95
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+96
+Oops! We ran out of 768's stock. Please try again after sometime.
+97
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+98
+Oops! We ran out of 846's stock. Please try again after sometime.
+99
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+100
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+Average search response time: 0.01914719071718726 seconds
+Average lookup response time: 0.01667975435162535 seconds
+Average buy response time: 0.07734355596032473 seconds
+Average e2e response time: 0.11318875539420854 seconds
+elnux7 src) > clear
+
+elnux7 src) > python3 sequential_requests_times.py 
+0
+Transaction successful.
+Bought book RPCs for Dummies
+1
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+2
+Transaction successful.
+Bought book RPCs for Dummies
+3
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+4
+Transaction successful.
+Bought book RPCs for Dummies
+5
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+6
+Transaction successful.
+Bought book How to finish Project 3 on time
+7
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+8
+Transaction successful.
+Bought book RPCs for Dummies
+9
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+10
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+11
+Transaction successful.
+Bought book RPCs for Dummies
+12
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+13
+Transaction successful.
+Bought book RPCs for Dummies
+14
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+15
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+16
+Oops! We ran out of 666's stock. Please try again after sometime.
+17
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+18
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+19
+Transaction successful.
+Bought book How to finish Project 3 on time
+20
+Transaction successful.
+Bought book RPCs for Dummies
+21
+Oops! We ran out of 666's stock. Please try again after sometime.
+22
+Transaction successful.
+Bought book How to finish Project 3 on time
+23
+Oops! We ran out of 666's stock. Please try again after sometime.
+24
+Oops! We ran out of 666's stock. Please try again after sometime.
+25
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+26
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+27
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+28
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+29
+Transaction successful.
+Bought book How to finish Project 3 on time
+30
+Transaction successful.
+Bought book RPCs for Dummies
+31
+Oops! We ran out of 666's stock. Please try again after sometime.
+32
+Transaction successful.
+Bought book RPCs for Dummies
+33
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+34
+Transaction successful.
+Bought book RPCs for Dummies
+35
+Transaction successful.
+Bought book RPCs for Dummies
+36
+Transaction successful.
+Bought book How to finish Project 3 on time
+37
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+38
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+39
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+40
+Transaction successful.
+Bought book How to finish Project 3 on time
+41
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+42
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+43
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+44
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+45
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+46
+Transaction successful.
+Bought book How to finish Project 3 on time
+47
+Oops! We ran out of 499's stock. Please try again after sometime.
+48
+Oops! We ran out of 499's stock. Please try again after sometime.
+49
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+50
+Oops! We ran out of 499's stock. Please try again after sometime.
+51
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+52
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+53
+Oops! We ran out of 499's stock. Please try again after sometime.
+54
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+55
+Oops! We ran out of 499's stock. Please try again after sometime.
+56
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+57
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+58
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+59
+Oops! We ran out of 768's stock. Please try again after sometime.
+60
+Oops! We ran out of 499's stock. Please try again after sometime.
+61
+Oops! We ran out of 499's stock. Please try again after sometime.
+62
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+63
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+64
+Transaction successful.
+Bought book RPCs for Dummies
+65
+Oops! We ran out of 499's stock. Please try again after sometime.
+66
+Oops! We ran out of 499's stock. Please try again after sometime.
+67
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+68
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+69
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+70
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+71
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+72
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+73
+Oops! We ran out of 499's stock. Please try again after sometime.
+74
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+75
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+76
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+77
+Oops! We ran out of 768's stock. Please try again after sometime.
+78
+Oops! We ran out of 768's stock. Please try again after sometime.
+79
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+80
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+81
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+82
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+83
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+84
+Transaction successful.
+Bought book RPCs for Dummies
+85
+Transaction successful.
+Bought book How to finish Project 3 on time
+86
+Transaction successful.
+Bought book Spring in the Pioneer Valley
+87
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+88
+Oops! We ran out of 846's stock. Please try again after sometime.
+89
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+90
+Transaction successful.
+Bought book Why Theory Classes are so Hard
+91
+Oops! We ran out of 684's stock. Please try again after sometime.
+92
+Transaction successful.
+Bought book RPCs for Dummies
+93
+Transaction successful.
+Bought book How to get a good grade in 677 in 20 minutes a day
+94
+Transaction successful.
+Bought book How to finish Project 3 on time
+95
+Transaction successful.
+Bought book Cooking for the Impatient Graduate Student
+96
+Transaction successful.
+Bought book RPCs for Dummies
+97
+Transaction successful.
+Bought book Xen and the Art of Surviving Graduate School
+98
+Transaction successful.
+Bought book RPCs for Dummies
+99
+Oops! We ran out of 846's stock. Please try again after sometime.
+100
+Oops! We ran out of 684's stock. Please try again after sometime.
+Average search response time: 0.018757636004155226 seconds
+Average lookup response time: 0.015215994107841265 seconds
+Average buy response time: 0.06210887786185387 seconds
+Average e2e response time: 0.09610049795396257 seconds
+elnux7 src) > 

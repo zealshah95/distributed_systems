@@ -1,0 +1,93 @@
+
+(base) 1x-nat-vl931-172-30-159-193:src zealshah$ python front_end.py 
+ * Serving Flask app "front_end_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:12346/ (Press CTRL+C to quit)
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 768
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 666.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /lookup/666 HTTP/1.1" 200 -
+Client wants to buy book numbered 666
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 666
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /cache/invalidate/666 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /buy/666 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 846.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /lookup/846 HTTP/1.1" 200 -
+Client wants to buy book numbered 846
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 846
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /cache/invalidate/846 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /buy/846 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /buy/768 HTTP/1.1" 200 -
+Received client search request for books on topic- distributed_systems
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /search/distributed_systems HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 499.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /lookup/499 HTTP/1.1" 200 -
+Client wants to buy book numbered 499
+Sending buy request to the order server- order1
+Invalidating cache data for item number- 499
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /cache/invalidate/499 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /buy/499 HTTP/1.1" 200 -
+Received client search request for books on topic- graduate_school
+Sending subject-based query to the catalog server- catalog1.
+Forwarding search query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /search/graduate_school HTTP/1.1" 200 -
+Received client lookup request for details of book numbered 768.
+Data not found in cache. Forwarding request to catalog server- catalog2.
+Caching Data.
+Forwarding lookup query results to the client.
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /lookup/768 HTTP/1.1" 200 -
+Client wants to buy book numbered 768
+Sending buy request to the order server- order2
+Invalidating cache data for item number- 768
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /cache/invalidate/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /buy/768 HTTP/1.1" 200 -
+

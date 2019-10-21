@@ -1,0 +1,552 @@
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python catalog.py
+ * Serving Flask app "catalog_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:12345/ (Press CTRL+C to quit)
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:07] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:07] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:08] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 9.
+127.0.0.1 - - [03/Apr/2019 18:13:08] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 9.
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 9
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 9
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 8.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 9
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 9
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 8.
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 6.
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 8
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 8
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 7.
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 6.
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 8
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 8
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 7.
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 5.
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 5.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 4.
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 4.
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 3.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 6.
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 5.
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 4.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 3.
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 3.
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 6
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 5.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 2.
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 5
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 4.
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 1.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 0.
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Added new stock for 666.
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 2.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 1.
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 2.
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 1.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 4
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 3.
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 0.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Added new stock for 546.
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 3
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 2.
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 14
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 14
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 13.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 0.
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 13
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 13
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 12.
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 12
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 12
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 11.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 11
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 11
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 10.
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 9.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Added new stock for 768.
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 2
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 1.
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 1
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 0.
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 0
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 0
+127.0.0.1 - - [03/Apr/2019 18:13:41] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 9
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /query_by_item/546 HTTP/1.1" 200 -
+Looking for details of the book numbered 546.
+Book 546 details- cost: $8, and stock: 9
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /query_by_item/546 HTTP/1.1" 200 -
+Received update request from order server for book 546.
+Updated stock count for book 546 is 8.
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /update/decrease_count/1/546 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 11
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 11
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 10.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 11
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 11
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 10.
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+Added new stock for 321.
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /query_by_item/321 HTTP/1.1" 200 -
+Looking for details of the book numbered 321.
+Book 321 details- cost: $5, and stock: 7
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /query_by_item/321 HTTP/1.1" 200 -
+Received update request from order server for book 321.
+Updated stock count for book 321 is 6.
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /update/decrease_count/1/321 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- graduate_school.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /query_by_subject/graduate_school HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /query_by_item/768 HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 9.
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+Looking for books related to topic in the catalog- distributed_systems.
+Found the books. Forwarding the results to front end server.
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /query_by_subject/distributed_systems HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /query_by_item/666 HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 10
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /query_by_item/666 HTTP/1.1" 200 -
+Received update request from order server for book 666.
+Updated stock count for book 666 is 9.
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /update/decrease_count/1/666 HTTP/1.1" 200 -
+

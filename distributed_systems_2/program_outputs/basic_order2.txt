@@ -1,0 +1,42 @@
+
+(base) 1x-nat-vl931-172-30-159-193:src zealshah$ python order2.py 
+ * Serving Flask app "order2_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:12351/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /logstransactions_replicas/[(768,%20'Order%20Completed',%20'2019-04-21%2017:44:42.878894',%20'11')] HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server- catalog1
+666 is in stock. Continuing with the transaction.
+Invalidating Cache for book 666.
+Cache data invalidated.
+Sold book 666
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /buy/666 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /logstransactions_replicas/[(846,%20'Order%20Completed',%20'2019-04-21%2017:44:47.564359',%20'14')] HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog2
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /buy/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /logstransactions_replicas/[(499,%20'Order%20Completed',%20'2019-04-21%2017:44:50.099107',%20'9')] HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /catalog/check_heartbeat HTTP/1.1" 404 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server- catalog1
+768 is in stock. Continuing with the transaction.
+Invalidating Cache for book 768.
+Cache data invalidated.
+Sold book 768
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /buy/768 HTTP/1.1" 200 -
+
+
+
+
+
+
+

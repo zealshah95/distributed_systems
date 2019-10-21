@@ -1,0 +1,229 @@
+Last login: Wed Apr  3 18:11:08 on ttys001
+(base) 1x-nat-vl931-172-30-158-232:src zealshah$ python order.py 
+ * Serving Flask app "order_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:12347/ (Press CTRL+C to quit)
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:08] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:11] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:13] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:14] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:15] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:16] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:17] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:19] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:20] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:21] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:22] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:23] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:24] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:25] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:26] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:27] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:28] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:30] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:31] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:32] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:34] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:35] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:36] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:37] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:39] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:40] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 546.
+Sending availability verification query to the catalog server.
+546 is in stock. Continuing with the transaction.
+Sold book 546
+127.0.0.1 - - [03/Apr/2019 18:13:42] "GET /buy/546 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:43] "GET /buy/666 HTTP/1.1" 200 -
+Received buy request for book 321.
+Sending availability verification query to the catalog server.
+321 is in stock. Continuing with the transaction.
+Sold book 321
+127.0.0.1 - - [03/Apr/2019 18:13:44] "GET /buy/321 HTTP/1.1" 200 -
+Received buy request for book 768.
+Sending availability verification query to the catalog server.
+768 is in stock. Continuing with the transaction.
+Sold book 768
+127.0.0.1 - - [03/Apr/2019 18:13:45] "GET /buy/768 HTTP/1.1" 200 -
+Received buy request for book 666.
+Sending availability verification query to the catalog server.
+666 is in stock. Continuing with the transaction.
+Sold book 666
+127.0.0.1 - - [03/Apr/2019 18:13:46] "GET /buy/666 HTTP/1.1" 200 -
+

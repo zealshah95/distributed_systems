@@ -1,0 +1,53 @@
+
+
+(base) 1x-nat-vl931-172-30-159-193:src zealshah$ python catalog2.py 
+Resyncing databases...
+ * Serving Flask app "catalog2_server" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://localhost:12350/ (Press CTRL+C to quit)
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 12
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /query_by_item/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:42] "GET /update_replicas/update_book_count/[(768,%2011)] HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 666.
+Book 666 details- cost: $10, and stock: 10
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /query_by_item/666 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:45] "GET /update_replicas/update_book_count/[(666,%209)] HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 846.
+Book 846 details- cost: $4, and stock: 15
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /query_by_item/846 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 846.
+Book 846 details- cost: $4, and stock: 15
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /query_by_item/846 HTTP/1.1" 200 -
+Received update request from order server for book 846.
+Updated stock count for book 846 is 14.
+127.0.0.1 - - [21/Apr/2019 17:44:47] "GET /update/decrease_count/1/846 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 11
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /query_by_item/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 11
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /query_by_item/768 HTTP/1.1" 200 -
+Received update request from order server for book 768.
+Updated stock count for book 768 is 10.
+127.0.0.1 - - [21/Apr/2019 17:44:48] "GET /update/decrease_count/1/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 499.
+Book 499 details- cost: $7, and stock: 10
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /query_by_item/499 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:50] "GET /update_replicas/update_book_count/[(499,%209)] HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /catalog/check_heartbeat HTTP/1.1" 200 -
+Looking for details of the book numbered 768.
+Book 768 details- cost: $15, and stock: 10
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /query_by_item/768 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2019 17:44:51] "GET /update_replicas/update_book_count/[(768,%209)] HTTP/1.1" 200 -
+
